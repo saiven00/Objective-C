@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCC56C418F1A7A5CE54E44D /* libPods-XAHealth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D590867F676F74177687A3E9 /* libPods-XAHealth.a */; };
+		686E5C9A1EF26635003771DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C8F1EF26635003771DC /* AppDelegate.m */; };
+		686E5C9B1EF26635003771DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C911EF26635003771DC /* ViewController.m */; };
+		686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C931EF26635003771DC /* Assets.xcassets */; };
+		686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C941EF26635003771DC /* LaunchScreen.storyboard */; };
+		686E5C9E1EF26635003771DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C961EF26635003771DC /* Main.storyboard */; };
+		686E5CA01EF26635003771DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C991EF26635003771DC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41206616A5DC48F36C56E2F8 /* Pods-XAHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAHealth/Pods-XAHealth.release.xcconfig"; sourceTree = "<group>"; };
+		686E5C711EF26555003771DC /* XAHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		686E5C8E1EF26635003771DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		686E5C8F1EF26635003771DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		686E5C901EF26635003771DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		686E5C911EF26635003771DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		686E5C931EF26635003771DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		686E5C951EF26635003771DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		686E5C971EF26635003771DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		686E5C981EF26635003771DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686E5C991EF26635003771DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D590867F676F74177687A3E9 /* libPods-XAHealth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XAHealth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E5898C3E9F0812427252AD /* Pods-XAHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAHealth/Pods-XAHealth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		686E5C6E1EF26555003771DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCC56C418F1A7A5CE54E44D /* libPods-XAHealth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		686E5C681EF26555003771DC = {
+			isa = PBXGroup;
+			children = (
+				686E5C731EF26555003771DC /* XAHealth */,
+				686E5C721EF26555003771DC /* Products */,
+				EAF981C4A602155A4FF350C5 /* Pods */,
+				B60D9E55BED4BC0F58A39CEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		686E5C721EF26555003771DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				686E5C711EF26555003771DC /* XAHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		686E5C731EF26555003771DC /* XAHealth */ = {
+			isa = PBXGroup;
+			children = (
+				686E5C8B1EF26635003771DC /* Classes */,
+				686E5C8C1EF26635003771DC /* Common */,
+				686E5C8D1EF26635003771DC /* Main */,
+				686E5C921EF26635003771DC /* Supporting Files */,
+			);
+			path = XAHealth;
+			sourceTree = "<group>";
+		};
+		686E5C8B1EF26635003771DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				686E5CA11EF26727003771DC /* PersonalCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		686E5C8C1EF26635003771DC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		686E5C8D1EF26635003771DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				686E5C8E1EF26635003771DC /* AppDelegate.h */,
+				686E5C8F1EF26635003771DC /* AppDelegate.m */,
+				686E5C901EF26635003771DC /* ViewController.h */,
+				686E5C911EF26635003771DC /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		686E5C921EF26635003771DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				686E5C931EF26635003771DC /* Assets.xcassets */,
+				686E5C941EF26635003771DC /* LaunchScreen.storyboard */,
+				686E5C961EF26635003771DC /* Main.storyboard */,
+				686E5C981EF26635003771DC /* Info.plist */,
+				686E5C991EF26635003771DC /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		686E5CA11EF26727003771DC /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				686E5CA21EF26727003771DC /* Login */,
+				686E5CA31EF26727003771DC /* PersonalInfo */,
+				686E5CA41EF26727003771DC /* Register */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		686E5CA21EF26727003771DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		686E5CA31EF26727003771DC /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		686E5CA41EF26727003771DC /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B60D9E55BED4BC0F58A39CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D590867F676F74177687A3E9 /* libPods-XAHealth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF981C4A602155A4FF350C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E5898C3E9F0812427252AD /* Pods-XAHealth.debug.xcconfig */,
+				41206616A5DC48F36C56E2F8 /* Pods-XAHealth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		686E5C701EF26555003771DC /* XAHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686E5C881EF26556003771DC /* Build configuration list for PBXNativeTarget "XAHealth" */;
+			buildPhases = (
+				FA43CBBE22C2DE1E5A51523A /* [CP] Check Pods Manifest.lock */,
+				686E5C6D1EF26555003771DC /* Sources */,
+				686E5C6E1EF26555003771DC /* Frameworks */,
+				686E5C6F1EF26555003771DC /* Resources */,
+				FE2CF0F92330F7B822862ED8 /* [CP] Embed Pods Frameworks */,
+				E348F9ED5AEBED2CB66D2C8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAHealth;
+			productName = XAHealth;
+			productReference = 686E5C711EF26555003771DC /* XAHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		686E5C691EF26555003771DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XingYang;
+				TargetAttributes = {
+					686E5C701EF26555003771DC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 686E5C6C1EF26555003771DC /* Build configuration list for PBXProject "XAHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 686E5C681EF26555003771DC;
+			productRefGroup = 686E5C721EF26555003771DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				686E5C701EF26555003771DC /* XAHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		686E5C6F1EF26555003771DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686E5C9E1EF26635003771DC /* Main.storyboard in Resources */,
+				686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */,
+				686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E348F9ED5AEBED2CB66D2C8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAHealth/Pods-XAHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA43CBBE22C2DE1E5A51523A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2CF0F92330F7B822862ED8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XAHealth/Pods-XAHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		686E5C6D1EF26555003771DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686E5C9B1EF26635003771DC /* ViewController.m in Sources */,
+				686E5CA01EF26635003771DC /* main.m in Sources */,
+				686E5C9A1EF26635003771DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		686E5C941EF26635003771DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				686E5C951EF26635003771DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		686E5C961EF26635003771DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				686E5C971EF26635003771DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		686E5C861EF26556003771DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		686E5C871EF26556003771DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		686E5C891EF26556003771DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E5898C3E9F0812427252AD /* Pods-XAHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XAHealth/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyang.XAHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		686E5C8A1EF26556003771DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41206616A5DC48F36C56E2F8 /* Pods-XAHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "XAHealth/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyang.XAHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		686E5C6C1EF26555003771DC /* Build configuration list for PBXProject "XAHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686E5C861EF26556003771DC /* Debug */,
+				686E5C871EF26556003771DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686E5C881EF26556003771DC /* Build configuration list for PBXNativeTarget "XAHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686E5C891EF26556003771DC /* Debug */,
+				686E5C8A1EF26556003771DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 686E5C691EF26555003771DC /* Project object */;
+}
