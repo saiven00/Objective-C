@@ -44,6 +44,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68421FE61EF8CBDC003B186E /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		68421FE71EF8CBE7003B186E /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		68421FE81EF8CBE7003B186E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		68421FE91EF8CBE7003B186E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		68421FEA1EF8CBE7003B186E /* Record */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
 		686E5C681EF26555003771DC = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +111,10 @@
 		686E5C8B1EF26635003771DC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				68421FE71EF8CBE7003B186E /* Guide */,
+				68421FE81EF8CBE7003B186E /* Home */,
+				68421FE91EF8CBE7003B186E /* Menu */,
+				68421FEA1EF8CBE7003B186E /* Record */,
 				686E5CA11EF26727003771DC /* PersonalCenter */,
 			);
 			path = Classes;
@@ -84,6 +123,7 @@
 		686E5C8C1EF26635003771DC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				68421FE61EF8CBDC003B186E /* OpenSource */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -444,6 +484,7 @@
 				686E5C8A1EF26556003771DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
