@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1FCC56C418F1A7A5CE54E44D /* libPods-XAHealth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D590867F676F74177687A3E9 /* libPods-XAHealth.a */; };
+		68421FF91EF8CFC9003B186E /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421FEF1EF8CFC9003B186E /* MMDrawerBarButtonItem.m */; };
+		68421FFA1EF8CFC9003B186E /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421FF21EF8CFC9003B186E /* MMDrawerController.m */; };
+		68421FFB1EF8CFC9003B186E /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421FF41EF8CFC9003B186E /* MMDrawerVisualState.m */; };
+		68421FFC1EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421FF61EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m */; };
+		68421FFD1EF8CFC9003B186E /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68421FF81EF8CFC9003B186E /* UIViewController+MMDrawerController.m */; };
+		684220051EF8D2A2003B186E /* XAMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684220041EF8D2A2003B186E /* XAMainTabBarController.m */; };
+		6842200E1EF8EB05003B186E /* XAMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6842200D1EF8EB05003B186E /* XAMenuViewController.m */; };
+		684220131EF90066003B186E /* XABaseViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 684220121EF90066003B186E /* XABaseViewControllerManager.m */; };
+		6842201A1EF91290003B186E /* main_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 684220191EF91290003B186E /* main_home@2x.png */; };
 		686E5C9A1EF26635003771DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C8F1EF26635003771DC /* AppDelegate.m */; };
-		686E5C9B1EF26635003771DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C911EF26635003771DC /* ViewController.m */; };
 		686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C931EF26635003771DC /* Assets.xcassets */; };
 		686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C941EF26635003771DC /* LaunchScreen.storyboard */; };
 		686E5C9E1EF26635003771DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C961EF26635003771DC /* Main.storyboard */; };
@@ -18,11 +26,28 @@
 
 /* Begin PBXFileReference section */
 		41206616A5DC48F36C56E2F8 /* Pods-XAHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAHealth/Pods-XAHealth.release.xcconfig"; sourceTree = "<group>"; };
+		68421FEE1EF8CFC9003B186E /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		68421FEF1EF8CFC9003B186E /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		68421FF01EF8CFC9003B186E /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		68421FF11EF8CFC9003B186E /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		68421FF21EF8CFC9003B186E /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		68421FF31EF8CFC9003B186E /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		68421FF41EF8CFC9003B186E /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		68421FF51EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		68421FF61EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		68421FF71EF8CFC9003B186E /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		68421FF81EF8CFC9003B186E /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		684220031EF8D2A2003B186E /* XAMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAMainTabBarController.h; sourceTree = "<group>"; };
+		684220041EF8D2A2003B186E /* XAMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAMainTabBarController.m; sourceTree = "<group>"; };
+		6842200C1EF8EB05003B186E /* XAMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAMenuViewController.h; sourceTree = "<group>"; };
+		6842200D1EF8EB05003B186E /* XAMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAMenuViewController.m; sourceTree = "<group>"; };
+		684220101EF8EDE4003B186E /* XACommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XACommonDefine.h; sourceTree = "<group>"; };
+		684220111EF90066003B186E /* XABaseViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABaseViewControllerManager.h; sourceTree = "<group>"; };
+		684220121EF90066003B186E /* XABaseViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABaseViewControllerManager.m; sourceTree = "<group>"; };
+		684220191EF91290003B186E /* main_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_home@2x.png"; sourceTree = "<group>"; };
 		686E5C711EF26555003771DC /* XAHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686E5C8E1EF26635003771DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		686E5C8F1EF26635003771DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		686E5C901EF26635003771DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		686E5C911EF26635003771DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		686E5C931EF26635003771DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		686E5C951EF26635003771DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		686E5C971EF26635003771DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +72,7 @@
 		68421FE61EF8CBDC003B186E /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				68421FED1EF8CFC9003B186E /* MMDrawerController */,
 			);
 			path = OpenSource;
 			sourceTree = "<group>";
@@ -68,6 +94,9 @@
 		68421FE91EF8CBE7003B186E /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				684220061EF8D460003B186E /* Controller */,
+				684220071EF8D460003B186E /* Model */,
+				684220081EF8D460003B186E /* View */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -77,6 +106,124 @@
 			children = (
 			);
 			path = Record;
+			sourceTree = "<group>";
+		};
+		68421FEB1EF8CFAD003B186E /* Cotegory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cotegory;
+			sourceTree = "<group>";
+		};
+		68421FEC1EF8CFAD003B186E /* ReadPath */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReadPath;
+			sourceTree = "<group>";
+		};
+		68421FED1EF8CFC9003B186E /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				68421FEE1EF8CFC9003B186E /* MMDrawerBarButtonItem.h */,
+				68421FEF1EF8CFC9003B186E /* MMDrawerBarButtonItem.m */,
+				68421FF01EF8CFC9003B186E /* MMDrawerController+Subclass.h */,
+				68421FF11EF8CFC9003B186E /* MMDrawerController.h */,
+				68421FF21EF8CFC9003B186E /* MMDrawerController.m */,
+				68421FF31EF8CFC9003B186E /* MMDrawerVisualState.h */,
+				68421FF41EF8CFC9003B186E /* MMDrawerVisualState.m */,
+				68421FF51EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.h */,
+				68421FF61EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m */,
+				68421FF71EF8CFC9003B186E /* UIViewController+MMDrawerController.h */,
+				68421FF81EF8CFC9003B186E /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		68421FFE1EF8D184003B186E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				684220031EF8D2A2003B186E /* XAMainTabBarController.h */,
+				684220041EF8D2A2003B186E /* XAMainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68421FFF1EF8D184003B186E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		684220001EF8D184003B186E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		684220011EF8D184003B186E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		684220021EF8D1B5003B186E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				684220111EF90066003B186E /* XABaseViewControllerManager.h */,
+				684220121EF90066003B186E /* XABaseViewControllerManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		684220061EF8D460003B186E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6842200C1EF8EB05003B186E /* XAMenuViewController.h */,
+				6842200D1EF8EB05003B186E /* XAMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		684220071EF8D460003B186E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		684220081EF8D460003B186E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6842200F1EF8EDCD003B186E /* CommonDefine */ = {
+			isa = PBXGroup;
+			children = (
+				684220101EF8EDE4003B186E /* XACommonDefine.h */,
+			);
+			path = CommonDefine;
+			sourceTree = "<group>";
+		};
+		684220141EF90B12003B186E /* SupportIcon */ = {
+			isa = PBXGroup;
+			children = (
+				684220181EF91290003B186E /* main */,
+			);
+			path = SupportIcon;
+			sourceTree = "<group>";
+		};
+		684220181EF91290003B186E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				684220191EF91290003B186E /* main_home@2x.png */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 		686E5C681EF26555003771DC = {
@@ -123,6 +270,9 @@
 		686E5C8C1EF26635003771DC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6842200F1EF8EDCD003B186E /* CommonDefine */,
+				68421FEB1EF8CFAD003B186E /* Cotegory */,
+				68421FEC1EF8CFAD003B186E /* ReadPath */,
 				68421FE61EF8CBDC003B186E /* OpenSource */,
 			);
 			path = Common;
@@ -131,10 +281,13 @@
 		686E5C8D1EF26635003771DC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				684220021EF8D1B5003B186E /* Tool */,
+				68421FFE1EF8D184003B186E /* Controller */,
+				68421FFF1EF8D184003B186E /* Model */,
+				684220001EF8D184003B186E /* View */,
+				684220011EF8D184003B186E /* ViewModel */,
 				686E5C8E1EF26635003771DC /* AppDelegate.h */,
 				686E5C8F1EF26635003771DC /* AppDelegate.m */,
-				686E5C901EF26635003771DC /* ViewController.h */,
-				686E5C911EF26635003771DC /* ViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -142,6 +295,7 @@
 		686E5C921EF26635003771DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				684220141EF90B12003B186E /* SupportIcon */,
 				686E5C931EF26635003771DC /* Assets.xcassets */,
 				686E5C941EF26635003771DC /* LaunchScreen.storyboard */,
 				686E5C961EF26635003771DC /* Main.storyboard */,
@@ -262,6 +416,7 @@
 			files = (
 				686E5C9E1EF26635003771DC /* Main.storyboard in Resources */,
 				686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */,
+				6842201A1EF91290003B186E /* main_home@2x.png in Resources */,
 				686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +476,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				686E5C9B1EF26635003771DC /* ViewController.m in Sources */,
+				6842200E1EF8EB05003B186E /* XAMenuViewController.m in Sources */,
+				684220051EF8D2A2003B186E /* XAMainTabBarController.m in Sources */,
+				68421FFC1EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m in Sources */,
+				68421FFB1EF8CFC9003B186E /* MMDrawerVisualState.m in Sources */,
+				684220131EF90066003B186E /* XABaseViewControllerManager.m in Sources */,
+				68421FFD1EF8CFC9003B186E /* UIViewController+MMDrawerController.m in Sources */,
+				68421FFA1EF8CFC9003B186E /* MMDrawerController.m in Sources */,
+				68421FF91EF8CFC9003B186E /* MMDrawerBarButtonItem.m in Sources */,
 				686E5CA01EF26635003771DC /* main.m in Sources */,
 				686E5C9A1EF26635003771DC /* AppDelegate.m in Sources */,
 			);
