@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "XACommonDefine.h"
 #import "XABaseViewControllerManager.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import <UMSocialSinaHandler.h>
 
 @interface AppDelegate ()
 
@@ -23,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self initUMSDK];
     [XABaseViewControllerManager chooseViewController];
     return YES;
 }
@@ -54,5 +57,24 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)initUMSDK
+{
+    [[UMSocialManager defaultManager] openLog:YES];
+    
+    /* 设置友盟appkey */
+    [[UMSocialManager defaultManager] setUmSocialAppkey:@"5940f009a325117a700007b1"];
+
+    /* 设置新浪的appKey和appSecret */
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"3020077460"  appSecret:@"f330cad7eb0144b13bbd8248106bbf9d" redirectURL:@"https://sns.whalecloud.com/sina2/callback"];
+
+}
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }
+    return result;
+}
 
 @end
