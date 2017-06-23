@@ -10,15 +10,27 @@
 #import "XAMenuViewController.h"
 #import "XAMainTabBarController.h"
 #import "XACommonDefine.h"
+#import "XALoginViewController.h"
 
 #import "MMDrawerVisualState.h"
 #import "MMExampleDrawerVisualStateManager.h"
 
 
-
 @implementation XABaseViewControllerManager
 
 + (void)chooseViewController
+{
+    
+    [self setRootViewControllerWithLoginViewController];
+}
+
++ (void)setRootViewControllerWithLoginViewController
+{
+    UINavigationController *loginNAV = [[UINavigationController alloc] initWithRootViewController:[[XALoginViewController alloc] init]];
+    [UIApplication sharedApplication].keyWindow.rootViewController = loginNAV;
+}
+
++ (void)setRootViewControllerWithMainTabBarViewControler
 {
     XAMenuViewController *menuView = [[XAMenuViewController alloc] init];
     

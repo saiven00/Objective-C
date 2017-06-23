@@ -28,6 +28,36 @@
 				<string>wb3020077460</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.xingyang.XAHealth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wx89a5632530fc4e22</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.xingyang.XAHealth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tencent1106245078</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.xingyang.XAHealth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>QQ41EFF5D6</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

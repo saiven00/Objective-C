@@ -17,6 +17,8 @@
 		6842200E1EF8EB05003B186E /* XAMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6842200D1EF8EB05003B186E /* XAMenuViewController.m */; };
 		684220131EF90066003B186E /* XABaseViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 684220121EF90066003B186E /* XABaseViewControllerManager.m */; };
 		6842201A1EF91290003B186E /* main_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 684220191EF91290003B186E /* main_home@2x.png */; };
+		6868844A1EFCBAE9008D8ED4 /* XALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686884481EFCBAE9008D8ED4 /* XALoginViewController.m */; };
+		6868844B1EFCBAE9008D8ED4 /* XALoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 686884491EFCBAE9008D8ED4 /* XALoginViewController.xib */; };
 		686E5C9A1EF26635003771DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E5C8F1EF26635003771DC /* AppDelegate.m */; };
 		686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C931EF26635003771DC /* Assets.xcassets */; };
 		686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686E5C941EF26635003771DC /* LaunchScreen.storyboard */; };
@@ -45,6 +47,9 @@
 		684220111EF90066003B186E /* XABaseViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABaseViewControllerManager.h; sourceTree = "<group>"; };
 		684220121EF90066003B186E /* XABaseViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABaseViewControllerManager.m; sourceTree = "<group>"; };
 		684220191EF91290003B186E /* main_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_home@2x.png"; sourceTree = "<group>"; };
+		686884471EFCBAE9008D8ED4 /* XALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XALoginViewController.h; sourceTree = "<group>"; };
+		686884481EFCBAE9008D8ED4 /* XALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XALoginViewController.m; sourceTree = "<group>"; };
+		686884491EFCBAE9008D8ED4 /* XALoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XALoginViewController.xib; sourceTree = "<group>"; };
 		686E5C711EF26555003771DC /* XAHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686E5C8E1EF26635003771DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		686E5C8F1EF26635003771DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -226,6 +231,30 @@
 			path = main;
 			sourceTree = "<group>";
 		};
+		686884441EFCB419008D8ED4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				686884471EFCBAE9008D8ED4 /* XALoginViewController.h */,
+				686884481EFCBAE9008D8ED4 /* XALoginViewController.m */,
+				686884491EFCBAE9008D8ED4 /* XALoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		686884451EFCB419008D8ED4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		686884461EFCB419008D8ED4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		686E5C681EF26555003771DC = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +347,9 @@
 		686E5CA21EF26727003771DC /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				686884441EFCB419008D8ED4 /* Controller */,
+				686884451EFCB419008D8ED4 /* Model */,
+				686884461EFCB419008D8ED4 /* View */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -418,6 +450,7 @@
 				686E5C9E1EF26635003771DC /* Main.storyboard in Resources */,
 				686E5C9C1EF26635003771DC /* Assets.xcassets in Resources */,
 				6842201A1EF91290003B186E /* main_home@2x.png in Resources */,
+				6868844B1EFCBAE9008D8ED4 /* XALoginViewController.xib in Resources */,
 				686E5C9D1EF26635003771DC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +514,7 @@
 				684220051EF8D2A2003B186E /* XAMainTabBarController.m in Sources */,
 				68421FFC1EF8CFC9003B186E /* MMExampleDrawerVisualStateManager.m in Sources */,
 				68421FFB1EF8CFC9003B186E /* MMDrawerVisualState.m in Sources */,
+				6868844A1EFCBAE9008D8ED4 /* XALoginViewController.m in Sources */,
 				684220131EF90066003B186E /* XABaseViewControllerManager.m in Sources */,
 				68421FFD1EF8CFC9003B186E /* UIViewController+MMDrawerController.m in Sources */,
 				68421FFA1EF8CFC9003B186E /* MMDrawerController.m in Sources */,

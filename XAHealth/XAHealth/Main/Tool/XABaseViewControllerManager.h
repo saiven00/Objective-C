@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface XABaseViewControllerManager : NSObject
+
 + (void)chooseViewController;
+
++ (void)setRootViewControllerWithMainTabBarViewControler;
+
 @end
